@@ -10,8 +10,10 @@ return [
     ],
     'owner' => [
         'name' => 'John Doe',
-        'twitter' => 'johndoe',
-        'github' => 'johndoe',
+    ],
+    'links' => [
+        'twitter' => 'https://twitter.com/johndoe',
+        'github' => 'https://github.com/johndoe',
     ],
     'services' => [
         'cmsVersion' => '~2.10',
