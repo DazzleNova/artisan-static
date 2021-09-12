@@ -10,6 +10,18 @@ Just make sure that your [Netlify Identity](https://docs.netlify.com/visitor-acc
 
 You can change the Netlify CMS version being used in `config.php` under the `services` key.
 
+```php
+<?php
+
+return [
+    // ...
+    'services' => [
+        'cmsVersion' => '~2.10',
+    ],
+    // ...
+];
+```
+
 Navigate to `yoursite.netlify.app/admin` to access the CMS.
 
 ![Netlify CMS](https://res.cloudinary.com/artisanstatic/netlify-cms.png)

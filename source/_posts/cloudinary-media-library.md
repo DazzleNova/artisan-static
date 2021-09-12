@@ -8,6 +8,21 @@ Register on [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/qq2
 
 Go to `config.php`, add your **cloud name** and **API key** under the `services` key.
 
+```php
+<?php
+
+return [
+    // ...
+    'services' => [
+        'cloudinary' => [
+            'cloudName' => 'artisanstatic',
+            'apiKey' => '365895137117119',
+        ],
+    ],
+    // ...
+];
+```
+
 Now you can use the `media()` helper in your Blade templates to easily reference files in your Cloudinary library.
 
 ```html
